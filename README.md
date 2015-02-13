@@ -1,4 +1,4 @@
-#Wander Piece
+#Wonder Piece
 
 ### Project Description, Lesa
 
