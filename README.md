@@ -1,6 +1,6 @@
 #Wonder Piece
 
-### Project Description, Lesa
+### Project Description:
 
           
 | Name | Phone_Number | Email | 
