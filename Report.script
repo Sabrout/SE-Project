@@ -1,0 +1,16 @@
+CREATE TABLE commetReport
+(   uid int, 
+	cid int,
+	content varchar(255),
+	PRIMARY KEY (cid , uid),
+	FOREIGN KEY uid REFERENCES user
+)
+
+CREATE TABLE artReport
+( 
+	uid int,
+	aid int,
+	content varchar(255),
+	PRIMARY KEY (aid,uid),
+	FOREIGN KEY uid REFERENCES user
+)

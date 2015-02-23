@@ -1,0 +1,6 @@
+CREATE TABLE shop
+(
+	id integer PRIMARY KEY,
+	name varchar(255),
+	sdate TIMESTAMP
+)

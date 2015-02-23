@@ -1,0 +1,740 @@
+
+.login {
+    width: 300px;
+    height: 235px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 64%;
+    background: #1e1e1e;
+    border-radius: 6px;
+    box-shadow: 0px 0px 50px rgba(110,110,110,.8);
+    display: none;
+    position: relative;
+    z-index: 1;
+}
+.logout{
+    text-decoration: none;
+    color:white;
+}
+.login .titulo {
+    width: 298px;
+    height: 14px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 14px;
+    text-align: center;
+    color: #bfbfbf;
+    font-weight: bold;
+    background: #121212;
+    border: #2d2d2d solid 1px;
+    margin-bottom: 30px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    font-family: 'Segoe UI';
+}
+
+.login form {
+    width: 240px;
+    height: auto;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login form input[type=text], .login form input[type=password] {
+    width: 200px;
+    font-size: 12px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 40px;
+    border: none;
+    color: #bfbfbf;
+    background: #141414;
+    outline: none;
+    margin: 0;
+}
+
+.login form input[type=text] {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top: #0b0b0b solid 1px;
+    background: #141414 url(http://dev.dhenriquez.com/test-img/icons/111-user.png) 10px center no-repeat;
+}
+
+.login form input[type=password] {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top: #0b0b0b 1px solid;
+    border-bottom: #353535 1px solid;
+    background: #141414 url(http://dev.dhenriquez.com/test-img/icons/54-lock.png) 10px center no-repeat;
+}
+
+.login form .enviar {
+    width: 240px;
+    height: 50px;
+    display: block;
+    margin-top: 2%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 6px;
+    border: none;
+    border-top: #4090FF 1px solid;
+    border-bottom: #161616 1px solid;
+    background: #4090FF;
+    text-align: middle;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFF;
+    font-family: Arial;
+}
+
+.login .olvido {
+    width: 240px;
+    height: auto;
+    overflow: hidden;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 10px;
+    text-align: middle;
+}
+
+.login .olvido .col {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.login .olvido .col a {
+    color: #fff;
+    text-decoration: none;
+    font: 12px Arial;
+
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block }
+
+ol, ul { list-style: none }
+
+blockquote, q { quotes: none }
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body{
+    background: url("background.jpg")no-repeat center center fixed;;
+	background-repeat: no-repeat;
+ 	background-size: cover;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+.logo{
+	margin-top: -8px;
+	margin-left: -10px;
+	margin-right: -10px;
+	background: #4090FF;
+	height: 75px;
+}
+
+.img{
+	margin-left: 20%;
+	width: 250px;
+	height:75px;
+}
+pre{
+	font-family: 'Segoe UI';
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	line-height: 26.3999996185303px;
+}
+.mainPage{
+	height: 100%;
+	background-color: #000000;
+	color:white;
+	margin: 0 20% 0 20%;
+	position: relative;
+	opacity: 0.7;
+	z-index: 0;
+}
+h4{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.logo2{
+	background: #539BFF;
+	color: #B2D2FF;
+}
+
+.button{
+  	width:75px;
+  	background:#4090FF;
+  	border-radius: 7px;
+  	float:right;
+  	margin-top:1%;
+  	margin-right: 22%;
+  	padding:10px;
+  	text-align:center;
+  	text-decoration:none;
+  	color:white;
+  	cursor:pointer;
+  	transition:background .5s;
+  	-webkit-transition:background .5s;
+  	font-family: 'Segoe UI';
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+}
+
+.button:hover , .postB:hover{
+  background:#2D65B2;
+}
+.button2:hover{
+  background:#940317;
+}
+
+.msg{
+	height: 40px;
+	background-color: #4d4d4d;
+	border-radius: 10px 10px 10px 10px;
+    color:white;
+    width:35%;
+    font-family: 'Segoe UI';
+    padding:1px 2px 2px 2px;
+    vertical-align: middle;
+    margin:6% 0 1% 2%;
+}
+.msgE{
+	height: 40px;
+	background-color: #4d4d4d;
+	border-radius: 10px 10px 10px 10px;
+    color:white;
+    width:35%;
+    font-family: 'Segoe UI';
+    padding:1px 2px 2px 2px;
+    vertical-align: middle;
+    margin:6% 0 1% 2%;
+
+}
+.msgC{
+	height: 100px;
+	background-color: #4d4d4d;
+	border-radius: 10px 10px 10px 10px;
+    color:white;
+    width:75%;
+    font-family: 'Segoe UI';
+    padding:1px 2px 2px 2px;
+    margin:1% 0 1% 2%;
+    resize: none;
+}
+.comment{
+	border-radius: 10px;
+	color: white;
+	min-height: 80px;
+	width: 93%;
+	position: relative;
+	background-color: #ffffff;
+	padding: 10% 10% 10% 10%;
+	color: black;
+	text-align: left;
+	font-size: 20px;
+	padding: 1% 1% 1% 2%;
+	font-family: 'Segoe UI';
+	margin:5% 2% 5% 2%;
+
+}
+
+h2{
+	color: #8cdef2;
+	margin-right: 1%;
+	margin-top: -3.5%;
+	margin-bottom: -1.5%;
+	text-align: right;
+	font-size: 15px;
+	font-family: 'Segoe UI';
+}
+h5{
+	color: #4090FF;
+	margin-right: 1%;
+	margin-top: 1%;
+	margin-bottom: -1.5%;
+	font-size: 22px;
+	font-family: 'Segoe UI';
+}
+.postB{
+	border-radius: 10px 10px 10px 10px;
+  	width:80px;
+  	height: 27px;
+  	background:#4090FF;
+  	margin: -10% 90% 0 0;
+  	text-align:center;
+  	text-decoration:none;
+  	color:white;
+  	cursor:pointer;
+  	transition:background .5s;
+  	-webkit-transition:background .5s;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	margin: 5px 5px 5px 5px;
+	font-family: 'Segoe UI';
+}
+.button1{
+	border-radius: 10px 10px 10px 10px;
+  	width:80px;
+  	height: 27px;
+  	background:#4090FF;
+  	text-align:center;
+  	text-decoration:none;
+  	color:white;
+  	cursor:pointer;
+  	transition:background .5s;
+  	-webkit-transition:background .5s;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	margin: 5px 5px 5px 1%;
+	font-family: 'Segoe UI';
+}
+
+.button2{
+	border-radius: 10px 10px 10px 10px;
+  	width:90px;
+  	height: 27px;
+  	background:#BA1026;
+  	float:right;
+  	text-align:right;
+  	text-decoration:none;
+  	color:white;
+  	cursor:pointer;
+  	transition:background .5s;
+  	-webkit-transition:background .5s;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	margin: 5px 5px 5px 5px;
+	font-family: 'Segoe UI';
+}
+.text2{
+	padding-left: -10%;
+	width:240px;
+}
+h6{
+	text-align: left;
+	color: white;
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	font-family: 'Segoe UI';
+}
+#productT{
+text-align: center;
+
+}
+#products{
+text-align: center;
+}
+#info{
+	margin: 0 5% 6% 5%;
+}
+#logobig{
+	height: auto;
+	width: 100%;
+	margin-left:-1.5%;
+
+}
+
+#divfooter{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+
+}
+
+#footer{
+	color: white;
+	font-family: 'Sergoe UI';
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+#cssmenu {
+ background: #000000;
+  margin-top: 2%;
+  margin-bottom: -0.8%;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 40px;
+  border-top-left-radius: 10px;
+  border-top-right-radius:10px;
+  width: auto;
+}
+#cssmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+#cssmenu ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#cssmenu ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+#cssmenu.align-right ul li {
+  float: right;
+}
+#cssmenu.align-center ul {
+  text-align: center;
+}
+#cssmenu ul li a {
+  color: #4090FF;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+#cssmenu ul li a:hover {
+  color: #ffffff;
+}
+#cssmenu ul li a:hover:before {
+  width: 100%;
+}
+#cssmenu ul li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #ffffff;
+  opacity: .5;
+}
+#cssmenu ul li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #ffffff;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+#cssmenu ul li.last > a:after,
+#cssmenu ul li:last-child > a:after {
+  display: block;
+}
+#cssmenu ul li.active a {
+  color: #ffffff;
+}
+#cssmenu ul li.active a:before {
+  width: 100%;
+}
+#cssmenu.align-right li.last > a:after,
+#cssmenu.align-right li:last-child > a:after {
+  display: block;
+}
+#cssmenu.align-right li:first-child a:after {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #cssmenu ul li {
+    float: none;
+    display: block;
+  }
+  #cssmenu ul li a {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fb998c;
+  }
+  #cssmenu ul li.last > a,
+  #cssmenu ul li:last-child > a {
+    border: 0;
+  }
+  #cssmenu ul li a:after {
+    display: none;
+  }
+  #cssmenu ul li a:before {
+    display: none;
+  }
+}
+/* entire container, keeps perspective */
+
+.card-container {
+	  -webkit-perspective: 800px;
+   -moz-perspective: 800px;
+     -o-perspective: 800px;
+        perspective: 800px;
+
+}
+/* flip the pane when hovered */
+.card-container:hover .card, .card-container.hover .card {
+	-webkit-transform: rotateY( 180deg );
+-moz-transform: rotateY( 180deg );
+ -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+.card-container.static:hover .card, .card-container.static.hover .card {
+	-webkit-transform: none;
+-moz-transform: none;
+ -o-transform: none;
+    transform: none;
+}
+/* flip speed goes here */
+.card {
+	 -webkit-transition: -webkit-transform .5s;
+   -moz-transition: -moz-transform .5s;
+     -o-transition: -o-transform .5s;
+        transition: transform .5s;
+-webkit-transform-style: preserve-3d;
+   -moz-transform-style: preserve-3d;
+     -o-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	-webkit-backface-visibility: hidden;
+   -moz-backface-visibility: hidden;
+     -o-backface-visibility: hidden;
+        backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #FFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
+    background-color: black;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+		-webkit-transform: rotateY( 180deg );
+   -moz-transform: rotateY( 180deg );
+     -o-transform: rotateY( 180deg );
+        transform: rotateY( 180deg );
+        z-index: 3;
+}
+
+/*        Style       */
+
+
+.card{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 4px;
+    color: #444444;
+    width: 100%;
+    margin: 5% 3% 3% 3%;
+}
+.card-container{
+    width: 40%;
+    position: absolute;
+	border-radius: 4px;
+    margin: 5% 3% 3% 3%;
+}
+.front,.back{
+    width: 100%;
+    height: 400px;
+    border-radius: 4px;
+}
+
+.card .cover{
+    height: 150px;
+    overflow: hidden;
+    border-radius: 4px 4px 0 0;
+}
+.card .cover img{
+    width: 100%;
+}
+.card .user{
+    border-radius: 50%;
+    display: block;
+    height: 120px;
+    margin: -55px auto 0;
+    overflow: hidden;
+    width: 120px;
+}
+.card .user img{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 4px solid #FFFFFF;
+    width: 100%;
+}
+
+.card .content{
+    box-shadow: none;
+    padding: auto;
+
+}
+.card .content .main {
+    height: 20%;
+
+    text-align: left;
+    background-color: black;
+}
+.card .back .content .main {
+    height: 20%;
+    text-align: left;
+    background-color: black;
+   
+}
+.card .name {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 10px 0 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+.card h5{
+    margin: 5px 0;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.card .header {
+    padding: 15px 20px;
+    height: 90px;
+    background-color: black;
+
+}
+.card .motto{
+    border-bottom: 1px solid #EEEEEE;
+    background-color: black;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/*      Just for presentation        */
+
+.white-board{
+    background-color: #FFFFFF;
+    min-height: 200px;
+    padding: 60px 60px 20px;
+}
+
+ pre.prettyprint{
+    background-color: #ffffff;
+    border: 1px solid #999;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+
+/*       Fix bug for IE      */
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .front, .back{
+        -ms-backface-visibility: visible;    
+        backface-visibility: visible;
+    }
+    
+    .back {
+        visibility: hidden;
+        -ms-transition: all 0.2s cubic-bezier(.92,.01,.83,.67);
+    }
+    .front{
+        z-index: 4;
+    }
+    .card-container:hover .back{
+        z-index: 5;
+        visibility: visible;
+    }
+}
+
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+    display: table-row;
+    float:right;
+    margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF TWO  */
+.span_2_of_2 {
+    width: 100%;
+}
+.span_1_of_2 {
+    width: 49.2%;
+
+}
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

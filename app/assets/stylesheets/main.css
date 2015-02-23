@@ -1,0 +1,245 @@
+﻿
+body{
+    background: url("background.jpg")no-repeat center center fixed;;
+	background-repeat: no-repeat;
+ 	background-size: cover;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+.logo{
+	margin-top: -8px;
+	margin-left: -10px;
+	margin-right: -10px;
+	background: #4090FF;
+	height: 75px;
+}
+
+.img{
+	margin-left: 20%;
+	width: 250px;
+	height:75px;
+}
+pre{
+	font-family: 'Segoe UI';
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	line-height: 26.3999996185303px;
+}
+.mainPage{
+	height: 100%;
+	background-color: #000000;
+	color:white;
+	margin: 0 20% 0 20%;
+	position: relative;
+	opacity: 0.7;
+	z-index: 0;
+}
+h4{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.logo2{
+	background: #539BFF;
+	color: #B2D2FF;
+}
+
+.button{
+  	width:75px;
+  	background:#4090FF;
+  	border-radius: 7px;
+  	float:right;
+  	margin-top:1%;
+  	margin-right: 22%;
+  	padding:10px;
+  	text-align:center;
+  	text-decoration:none;
+  	color:white;
+  	cursor:pointer;
+  	transition:background .5s;
+  	-webkit-transition:background .5s;
+  	font-family: 'Segoe UI';
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+}
+
+.button:hover , .postB:hover{
+  background:#2D65B2;
+}
+.button2:hover{
+  background:#940317;
+}
+
+.msg{
+	height: 40px;
+	background-color: #4d4d4d;
+	border-radius: 10px 10px 10px 10px;
+    color:white;
+    width:35%;
+    font-family: 'Segoe UI';
+    padding:1px 2px 2px 2px;
+    vertical-align: middle;
+    margin:6% 0 1% 2%;
+}
+.msgE{
+	height: 40px;
+	background-color: #4d4d4d;
+	border-radius: 10px 10px 10px 10px;
+    color:white;
+    width:35%;
+    font-family: 'Segoe UI';
+    padding:1px 2px 2px 2px;
+    vertical-align: middle;
+    margin:6% 0 1% 2%;
+
+}
+.msgC{
+	height: 100px;
+	background-color: #4d4d4d;
+	border-radius: 10px 10px 10px 10px;
+    color:white;
+    width:75%;
+    font-family: 'Segoe UI';
+    padding:1px 2px 2px 2px;
+    margin:1% 0 1% 2%;
+    resize: none;
+}
+.comment{
+	border-radius: 10px;
+	color: white;
+	min-height: 80px;
+	width: 93%;
+	position: relative;
+	background-color: #ffffff;
+	padding: 10% 10% 10% 10%;
+	color: black;
+	text-align: left;
+	font-size: 20px;
+	padding: 1% 1% 1% 2%;
+	font-family: 'Segoe UI';
+	margin:5% 2% 5% 2%;
+
+}
+
+h2{
+	color: #8cdef2;
+	margin-right: 1%;
+	margin-top: -3.5%;
+	margin-bottom: -1.5%;
+	text-align: right;
+	font-size: 15px;
+	font-family: 'Segoe UI';
+}
+h5{
+	color: #4090FF;
+	margin-right: 1%;
+	margin-top: 1%;
+	margin-bottom: -1.5%;
+	font-size: 22px;
+	font-family: 'Segoe UI';
+}
+.postB{
+	border-radius: 10px 10px 10px 10px;
+  	width:80px;
+  	height: 27px;
+  	background:#4090FF;
+  	margin: -10% 90% 0 0;
+  	text-align:center;
+  	text-decoration:none;
+  	color:white;
+  	cursor:pointer;
+  	transition:background .5s;
+  	-webkit-transition:background .5s;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	margin: 5px 5px 5px 5px;
+	font-family: 'Segoe UI';
+}
+.button1{
+	border-radius: 10px 10px 10px 10px;
+  	width:80px;
+  	height: 27px;
+  	background:#4090FF;
+  	text-align:center;
+  	text-decoration:none;
+  	color:white;
+  	cursor:pointer;
+  	transition:background .5s;
+  	-webkit-transition:background .5s;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	margin: 5px 5px 5px 1%;
+	font-family: 'Segoe UI';
+}
+
+.button2{
+	border-radius: 10px 10px 10px 10px;
+  	width:90px;
+  	height: 27px;
+  	background:#BA1026;
+  	float:right;
+  	text-align:right;
+  	text-decoration:none;
+  	color:white;
+  	cursor:pointer;
+  	transition:background .5s;
+  	-webkit-transition:background .5s;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	margin: 5px 5px 5px 5px;
+	font-family: 'Segoe UI';
+}
+.text2{
+	padding-left: -10%;
+	width:240px;
+}
+h6{
+	text-align: left;
+	color: white;
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	font-family: 'Segoe UI';
+}
+#productT{
+text-align: center;
+
+}
+#products{
+text-align: center;
+}
+#info{
+	margin: 0 5% 6% 5%;
+}
+#logobig{
+	height: auto;
+	width: 100%;
+	margin-left:-1.5%;
+
+}
+
+#divfooter{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+
+}
+
+#footer{
+	color: white;
+	font-family: 'Sergoe UI';
+}
+
