@@ -1,0 +1,14 @@
+<html>
+<head>
+	
+</head>
+<body>
+<h1>WELCOME TO HOME PAGE W RABNA YOSTOOR</h1>
+<% if !logged_in? %>
+<%=link_to "SIGN UP NOW" ,:action => 'view_signup' , :controller => 'sessions'%>
+<%=link_to "LOGIN" , :action => 'view_signin' , :controller => 'sessions'%>
+<%else%>
+<%=link_to "LOGOUT" , :action => 'logout' , :controller => 'sessions' %>
+<%end%>
+</body>
+</html>
