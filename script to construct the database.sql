@@ -20,7 +20,7 @@ report_type varchar(255)
 );
 
 CREATE TABLE report_art(
-art_id SERIAL REFERENCES users(user_id)  ON UPDATE CASCADE ON DELETE CASCADE,
+art_id SERIAL REFERENCES arts(user_id)  ON UPDATE CASCADE ON DELETE CASCADE,
 user_id SERIAL REFERENCES users(user_id)  ON UPDATE CASCADE ON DELETE CASCADE,
 report_type varchar(255)
 );
